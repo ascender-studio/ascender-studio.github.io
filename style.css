@@ -1,0 +1,65 @@
+:root {
+  --bg: #0d0b11;
+  --panel: #16131c;
+  --gold: #d4af37;
+  --gold-dim: #8a7328;
+  --text: #e8e4dd;
+  --muted: #9d968c;
+  --line: #2a2533;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.wrap { max-width: 780px; margin: 0 auto; padding: 48px 24px 80px; }
+header.site {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, #17131f 0%, var(--bg) 100%);
+}
+header.site .wrap { padding: 32px 24px; }
+.brand {
+  font-size: 13px; letter-spacing: .18em; text-transform: uppercase;
+  color: var(--gold); margin: 0 0 6px;
+}
+.title { font-size: 28px; margin: 0; font-weight: 600; letter-spacing: -.01em; }
+nav { margin-top: 18px; }
+nav a {
+  color: var(--muted); text-decoration: none; font-size: 14px; margin-right: 18px;
+  border-bottom: 1px solid transparent; padding-bottom: 2px;
+}
+nav a:hover, nav a[aria-current] { color: var(--gold); border-bottom-color: var(--gold-dim); }
+h2 {
+  font-size: 19px; margin: 40px 0 12px; color: var(--gold);
+  font-weight: 600; letter-spacing: -.01em;
+}
+h3 { font-size: 16px; margin: 26px 0 8px; font-weight: 600; }
+p, li { color: var(--text); }
+ul { padding-left: 20px; }
+li { margin: 6px 0; }
+.meta { color: var(--muted); font-size: 14px; margin: 0 0 8px; }
+.lead { color: var(--muted); }
+table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: 14.5px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--gold); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; }
+code { background: var(--panel); padding: 2px 6px; border-radius: 4px; font-size: 14px; color: var(--gold); }
+a { color: var(--gold); }
+.card {
+  background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; padding: 20px 22px; margin: 22px 0;
+}
+.card h3 { margin-top: 0; }
+footer.site {
+  border-top: 1px solid var(--line); color: var(--muted); font-size: 14px;
+}
+footer.site .wrap { padding: 28px 24px; }
+.home-links { display: grid; gap: 14px; margin-top: 28px; }
+.home-links a {
+  display: block; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; padding: 18px 22px; text-decoration: none; color: var(--text);
+}
+.home-links a:hover { border-color: var(--gold-dim); }
+.home-links strong { color: var(--gold); display: block; font-size: 16px; margin-bottom: 4px; }
+.home-links span { color: var(--muted); font-size: 14px; }
