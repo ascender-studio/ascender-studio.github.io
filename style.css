@@ -108,3 +108,10 @@ section { scroll-margin-top: 20px; }
 .post h3 { margin: 2px 0 6px; }
 .post p:last-child { margin: 0; }
 @media (max-width: 520px) { .hero h1 { font-size: 32px; } .wrap { padding-left: 18px; padding-right: 18px; } }
+
+header.site nav a.nav-signup {
+  color: #120f08; background: var(--gold); border: none; border-radius: 6px;
+  padding: 3px 10px; font-weight: 600; white-space: nowrap;
+}
+header.site nav a.nav-signup:hover { color: #120f08; filter: brightness(1.1); }
+html { scroll-behavior: smooth; }
