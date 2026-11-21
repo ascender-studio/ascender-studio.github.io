@@ -117,3 +117,7 @@ header.site nav a.nav-signup:hover { color: #120f08; filter: brightness(1.1); }
 html { scroll-behavior: smooth; }
 .discord { margin-top: 22px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
 .discord span { color: var(--muted); font-size: 14px; }
+.clips { display: grid; gap: 12px; grid-template-columns: repeat(3, 1fr); margin-top: 22px; }
+.clips figure { margin: 0; }
+.clips video { width: 100%; height: auto; aspect-ratio: 9 / 16; border-radius: 12px; border: 1px solid var(--line); display: block; background: #000; }
+.clips figcaption { color: var(--muted); font-size: 13px; text-align: center; margin-top: 6px; }
