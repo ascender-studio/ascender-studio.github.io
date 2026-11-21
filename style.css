@@ -115,3 +115,5 @@ header.site nav a.nav-signup {
 }
 header.site nav a.nav-signup:hover { color: #120f08; filter: brightness(1.1); }
 html { scroll-behavior: smooth; }
+.discord { margin-top: 22px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.discord span { color: var(--muted); font-size: 14px; }
