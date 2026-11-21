@@ -100,7 +100,7 @@ section { scroll-margin-top: 20px; }
 .tribe p:last-child { margin: 0; font-size: 15px; color: #cfc9bf; }
 .features { padding-left: 18px; }
 .features strong { color: var(--gold); font-weight: 600; }
-.shots { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); margin-top: 22px; }
+.shots { display: grid; gap: 14px; grid-template-columns: repeat(2, 1fr); margin-top: 22px; max-width: 620px; margin-left: auto; margin-right: auto; }
 .shots figure { margin: 0; }
 .shots img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; }
 .shots figcaption { color: var(--muted); font-size: 13px; text-align: center; margin-top: 6px; }
